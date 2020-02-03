@@ -1,0 +1,31 @@
+{
+  "name": "Wordpress Test Project",
+  "authors": [
+    {
+      "name": "Michael Schmidt",
+      "email": "nomad5000@yahoo.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "wp-content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "wpackagist-plugin/wp-help": "1.5.*",
+    "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "2.1.*",
+    "johnpbloch/wordpress": "*"
+  }
+}
