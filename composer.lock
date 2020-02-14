@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b76a511b146050e718777833287471d6",
+    "content-hash": "739bd9fe4e9982a23e7af7e74c237bea",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "4d74f5ba957468afe124849ceaf38c2fcf5b871a"
+                "reference": "4f59162827f7bb928d9e91b67da3f625d2e9c493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/4d74f5ba957468afe124849ceaf38c2fcf5b871a",
-                "reference": "4d74f5ba957468afe124849ceaf38c2fcf5b871a",
+                "url": "https://api.github.com/repos/composer/composer/zipball/4f59162827f7bb928d9e91b67da3f625d2e9c493",
+                "reference": "4f59162827f7bb928d9e91b67da3f625d2e9c493",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-02-12T09:23:03+00:00"
+            "time": "2020-02-14T16:03:22+00:00"
         },
         {
             "name": "composer/installers",
@@ -333,12 +333,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "1aba2771d5ff5f8a41dc41c6ba6cc8e01844b67b"
+                "reference": "1f989fe43d4579a28b2c6461f54b24461666a09c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/1aba2771d5ff5f8a41dc41c6ba6cc8e01844b67b",
-                "reference": "1aba2771d5ff5f8a41dc41c6ba6cc8e01844b67b",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/1f989fe43d4579a28b2c6461f54b24461666a09c",
+                "reference": "1f989fe43d4579a28b2c6461f54b24461666a09c",
                 "shasum": ""
             },
             "require": {
@@ -385,7 +385,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2019-12-20T14:03:39+00:00"
+            "time": "2020-02-14T07:54:42+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -1077,12 +1077,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/phar-utils.git",
-                "reference": "6cfd02404ae22b847d5655b75dfd7bdfbc9c2d53"
+                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/6cfd02404ae22b847d5655b75dfd7bdfbc9c2d53",
-                "reference": "6cfd02404ae22b847d5655b75dfd7bdfbc9c2d53",
+                "url": "https://api.github.com/repos/Seldaek/phar-utils/zipball/8800503d56b9867d43d9c303b9cbcc26016e82f0",
+                "reference": "8800503d56b9867d43d9c303b9cbcc26016e82f0",
                 "shasum": ""
             },
             "require": {
@@ -1113,7 +1113,7 @@
             "keywords": [
                 "phar"
             ],
-            "time": "2020-01-13T12:32:57+00:00"
+            "time": "2020-02-14T15:25:33+00:00"
         },
         {
             "name": "symfony/console",
@@ -1299,12 +1299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "a90a9d3b9f458a5cdeabfa4090b20c000ca3962f"
+                "reference": "5ec813ccafa8164ef21757e8c725d3a57da59200"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/a90a9d3b9f458a5cdeabfa4090b20c000ca3962f",
-                "reference": "a90a9d3b9f458a5cdeabfa4090b20c000ca3962f",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/5ec813ccafa8164ef21757e8c725d3a57da59200",
+                "reference": "5ec813ccafa8164ef21757e8c725d3a57da59200",
                 "shasum": ""
             },
             "require": {
@@ -1340,7 +1340,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-01T11:03:25+00:00"
+            "time": "2020-02-14T07:34:21+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2899,12 +2899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/scaffold-command.git",
-                "reference": "4814acbdf3d7af499530cc1ae1e82f3ed9f12674"
+                "reference": "8b34e4e4e369093115d76e6867918c226857d58e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/scaffold-command/zipball/4814acbdf3d7af499530cc1ae1e82f3ed9f12674",
-                "reference": "4814acbdf3d7af499530cc1ae1e82f3ed9f12674",
+                "url": "https://api.github.com/repos/wp-cli/scaffold-command/zipball/8b34e4e4e369093115d76e6867918c226857d58e",
+                "reference": "8b34e4e4e369093115d76e6867918c226857d58e",
                 "shasum": ""
             },
             "require": {
@@ -2954,7 +2954,7 @@
             ],
             "description": "Generates code for post types, taxonomies, blocks, plugins, child themes, etc.",
             "homepage": "https://github.com/wp-cli/scaffold-command",
-            "time": "2019-11-25T13:26:31+00:00"
+            "time": "2020-02-14T09:00:19+00:00"
         },
         {
             "name": "wp-cli/search-replace-command",

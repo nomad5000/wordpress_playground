@@ -1,4 +1,6 @@
-*
-!.gitignore
-!./wordpress/wp-content/plugins/wp-pg
-!./wordpress/wp-content/themes/wp-pg
+/vendor
+/wordpress
+/.idea
+/wp-content/plugins/*
+/wp-content/themes/*
+!/wp-content/plugins/wp-pg
