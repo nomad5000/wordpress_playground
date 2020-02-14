@@ -1,3 +1,4 @@
-/vendor
-/wordpress
-/wp-content
+*
+!.gitignore
+!./wordpress/wp-content/plugins/wp-pg
+!./wordpress/wp-content/themes/wp-pg

@@ -14,18 +14,16 @@
   ],
   "extra": {
     "installer-paths": {
-      "wp-content/plugins/{$name}/": [
-        "type:wordpress-plugin"
-      ],
-      "wp-content/themes/{$name}/": [
-        "type:wordpress-theme"
-      ]
+      "./wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "./wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
     }
   },
   "minimum-stability": "dev",
   "require": {
     "wpackagist-plugin/wp-help": "1.5.*",
     "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "2.1.*",
-    "johnpbloch/wordpress": "*"
+    "wpackagist-theme/twentytwenty": "*",
+    "johnpbloch/wordpress": "*",
+    "wp-cli/wp-cli-bundle": "*"
   }
 }
