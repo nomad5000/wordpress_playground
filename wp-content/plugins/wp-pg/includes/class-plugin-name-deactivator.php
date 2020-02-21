@@ -30,7 +30,7 @@ class Wp_Pg_Deactivator {
 	 * @since    1.0.0
 	 */
 	public static function deactivate() {
-
+		unregister_post_type("tickets");
 	}
 
 }

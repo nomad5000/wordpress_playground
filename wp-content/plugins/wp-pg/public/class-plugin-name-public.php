@@ -100,4 +100,56 @@ class Wp_Pg_Public {
 
 	}
 
+	/**
+	 * run the init actions for the plugin.
+	 *
+	 * @since    1.0.0
+	 */
+	public function init_actions() {
+
+		/**
+		 * This function takes care tpo call the init hook of the plugin
+		 * to register all things needed here
+		 * An instance of this class should be passed to the run() function
+		 * defined in Wp_Pg_Loader as all of the hooks are defined
+		 * in that particular class.
+		 *
+		 * The Wp_Pg_Loader will then create the relationship
+		 * between the defined hooks and the functions defined in this
+		 * class
+		 */
+
+		register_post_type( 'tickets',
+			array(
+				'labels' => array(
+					'name' => __( 'Tickets' ),
+					'singular_name' => __( 'Ticket' )
+				),
+				'public' => true,
+				'exclude_from_search' => true,
+				'show_in_menu' => true,
+				'has_archive' => false,
+				'rewrite' => array('slug' => 'tickets'),
+				'show_in_rest' => true,
+				'taxonomies' => array(
+					'ticket_status',
+				),
+				'rewrite' => false,
+			)
+		);
+		register_taxonomy( 'ticket_status', 'tickets', array(
+				'labels' => array(
+					'name'          => 'Ticket Status'
+				,	'singular_name' => 'Ticket Status'
+				,	'search_items'  => 'Search Ticket Status'
+				,	'edit_item'     => 'Edit Ticket Status'
+				,	'add_new_item'  => 'Add New Ticket Status'
+				),
+				'rewrite' => array( 'slug' => 'ticket_status' ),
+				'show_in_rest' => true,
+			)
+		);
+
+	}
+
 }

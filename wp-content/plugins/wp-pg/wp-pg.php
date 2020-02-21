@@ -79,4 +79,5 @@ function run_wp_pg() {
 	$plugin->run();
 
 }
+
 run_wp_pg();
